@@ -14,8 +14,21 @@ export function AppHeader() {
     return (
         <header className="flex justify-around items-center h-16 border-b mb-4 bg-stone-950 text-white">
             <div className="flex justify-center items-center">
-                <Link href="/" aria-label="Home">
-                    <img src="/neo_logo_clean.svg" alt="Neo logo" className="h-34 w-auto" />
+                <Link href="/" aria-label="Home" className="group">
+                    <svg 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        className="h-34 w-auto mt-2 transition-all group-hover:brightness-[0.3] group-hover:contrast-125 group-hover:saturate-0"
+                        viewBox="0 0 1536 1024"
+                        preserveAspectRatio="xMidYMid meet"
+                    >
+                        <foreignObject x="0" y="0" width="1536" height="1024">
+                            <img 
+                                src="/neo_logo_clean.svg" 
+                                alt="Neo logo" 
+                                className="w-full h-full object-contain"
+                            />
+                        </foreignObject>
+                    </svg>
                 </Link>
             </div>
             <NavigationMenu>
@@ -29,10 +42,10 @@ export function AppHeader() {
             </NavigationMenu>
             <div className="grid grid-cols-3 gap-5">
                 <Link href="https://www.linkedin.com/in/neo-frank-uy/" aria-label="LinkedIn profile">
-                    <Linkedin className="text-white fill-current" fill="currentColor" stroke="none" />
+                    <Linkedin className="text-white fill-current hover:fill-slate-600" fill="currentColor" stroke="none" />
                 </Link>
                 <Link href="https://web.facebook.com/kratos9700/" aria-label="Facebook profile">
-                    <Facebook className="text-white fill-current" fill="currentColor" stroke="none"/>
+                    <Facebook className="text-white fill-current hover:fill-slate-600" fill="currentColor" stroke="none"/>
                 </Link>
                 <Link href="#"></Link>
             </div>
