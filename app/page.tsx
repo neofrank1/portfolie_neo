@@ -19,11 +19,16 @@ export default function Home() {
         <h1 className='text-4xl font-bold text-center'>Projects</h1>
         <div className='grid grid-cols-3 gap-4 mt-5'>
           <Card className='shadow-none hover:shadow-md transition-all duration-300'>
+            <CardContent>
+              <Image src="/projects/movie-house.png" alt="" width={500} height={500} className='shadow-lg border-2 border-slate-950'/>
+            </CardContent>
             <CardHeader>
-              <CardTitle>Project 1</CardTitle>
+              <CardTitle className='text-center font-extrabold text-2xl'>Movie House</CardTitle>
             </CardHeader>
             <CardContent>
-              <p>This is the first project</p>
+              <p className='text-justify text-pretty'>This is a simple movie search engine built with Next.js and Tailwind CSS. 
+              You can search for a movie by title and get the details of the movie. 
+              You can also get the details of a movie by its ID.</p>
             </CardContent>
           </Card>
           <Card className='shadow-none hover:shadow-md transition-all duration-300'>
