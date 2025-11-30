@@ -6,9 +6,9 @@ import { Linkedin, Facebook} from "lucide-react";
 export function AppHeader() {
 
     const NavigationList: NavItem[] = [
-        { title: "About Me", href: "#about-me" },
-        { title: "Projects", href: "#projects" },
-        { title: "Contact", href: "#contact" },
+        { title: "About Me", href: "/about-me" },
+        { title: "Projects", href: "/projects" },
+        { title: "Contact", href: "/contact" },
     ];
 
     return (
