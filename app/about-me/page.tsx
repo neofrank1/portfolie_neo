@@ -14,7 +14,7 @@ export default function AboutMe() {
                                 <p className='text-neutral-500 dark:text-neutral-400 text-pretty text-3xl'>Web Developer that is based in the Philippines.</p>
                             </div>
                             <div>
-                                <p className='text-neutral-500 dark:text-neutral-400 text-pretty'>I'm a Full Stack Developer, specializing in building clean, efficient, and reliable applications while continuously improving my skills in both backend and frontend development.</p>
+                                <p className='text-neutral-500 dark:text-neutral-400 text-pretty'>I&apos;m a Full Stack Developer, specializing in building clean, efficient, and reliable applications while continuously improving my skills in both backend and frontend development.</p>
                             </div>
                         </div>
                     </div>

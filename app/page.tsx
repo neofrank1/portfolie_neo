@@ -18,7 +18,7 @@ export default function Home() {
           <BackgroundRippleEffect />
           <div className="mt-25 w-full">
             <div className="relative z-10 mx-auto max-w-4xl text-center text-2xl font-bold text-neutral-800 md:text-4xl lg:text-7xl dark:text-neutral-100 mb-5">
-            <EncryptedText text="Hello I'm Neo Frank Uy" encryptedClassName="text-neutral-500" revealedClassName="dark:text-white text-black" revealDelayMs={50}/>
+            <EncryptedText text="Hello I&apos;m Neo Frank Uy" encryptedClassName="text-neutral-500" revealedClassName="dark:text-white text-black" revealDelayMs={50}/>
             </div>
           <div className="relative z-10 mx-auto mt-4 max-w-xl min-w-md text-center text-neutral-800 dark:text-neutral-500">
             <TextGenerateEffect words={homePageContent} className='text-justify text-pretty' duration={1}/>
