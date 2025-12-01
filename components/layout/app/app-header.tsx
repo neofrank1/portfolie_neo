@@ -2,6 +2,7 @@ import { NavigationMenu, NavigationMenuList, NavigationMenuItem } from "@/compon
 import Link from "next/link";
 import { type NavItem } from "@/types/nav_types";
 import { Linkedin, Facebook} from "lucide-react";
+import Image from "next/image";
 
 export function AppHeader() {
 
@@ -22,9 +23,11 @@ export function AppHeader() {
                         preserveAspectRatio="xMidYMid meet"
                     >
                         <foreignObject x="0" y="0" width="1536" height="1024">
-                            <img 
+                            <Image 
                                 src="/neo_logo_clean.svg" 
                                 alt="Neo logo" 
+                                width={1536}
+                                height={1024}
                                 className="w-full h-full object-contain"
                             />
                         </foreignObject>

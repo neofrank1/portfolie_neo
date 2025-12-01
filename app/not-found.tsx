@@ -1,4 +1,4 @@
-import { AppContent } from "./components/layout/app/app-content";
+import { AppContent } from "../components/layout/app/app-content";
 
 export default function NotFound() {
     return (
