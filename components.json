@@ -14,9 +14,13 @@
   "aliases": {
     "components": "@/components",
     "utils": "@/lib/utils",
+    "compose-refs": "@/lib/compose-refs",
     "ui": "@/components/ui",
     "lib": "@/lib",
     "hooks": "@/hooks"
   },
-  "registries": {}
+  "registries": {
+    "@aliimam": "https://aliimam.in/r/{name}.json",
+    "@aceternity": "https://ui.aceternity.com/registry/{name}.json"
+  }
 }
